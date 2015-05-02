@@ -29,3 +29,10 @@ test('ignores whitespace around comma\'s', function (t) {
 	t.assert(result.green === 2);
 	t.assert(result.blue === 3);
 });
+
+test('should return actual negative value', function (t) {
+	var result = parseRgb('rgb(-10, -22, 3)');
+	t.assert(result.red === -10);
+	t.assert(result.green === -22);
+	t.assert(result.blue === 3);
+});

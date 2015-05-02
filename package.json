@@ -1,0 +1,35 @@
+{
+  "name": "parse-rgb",
+  "version": "0.0.0",
+  "description": "Parse an rgb color",
+  "license": "MIT",
+  "repository": "arthurvr/parse-rgb",
+  "author": {
+    "name": "Arthur Verschaeve",
+    "email": "contact@arthurverschaeve.be",
+    "url": "arthurverschaeve.be"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "color",
+    "parse",
+    "red",
+    "green",
+    "blue",
+    "css",
+    "rgb",
+    "parser"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}

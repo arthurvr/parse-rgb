@@ -41,7 +41,7 @@ test('ignores whitespace around comma\'s', t => {
 	t.end();
 });
 
-test('should return actual negative value', t => {
+test('Returns negative value(s)', t => {
 	const result = parseRgb('rgb(-10, -22, 3)');
 
 	t.is(result.red, -10);

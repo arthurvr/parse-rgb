@@ -13,7 +13,7 @@ $ npm install --save parse-rgb
 ## Usage
 
 ```js
-var parseRgb = require('parse-rgb');
+const parseRgb = require('parse-rgb');
 
 parseRgb('rgb(34, 50, 2)');
 //=> {red: 34, green: 50, blue: 2}

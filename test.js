@@ -7,8 +7,6 @@ test('Normal rgb() value', t => {
 	t.is(result.red, 11);
 	t.is(result.green, 33);
 	t.is(result.blue, 44);
-
-	t.end();
 });
 
 test('ignores whitespace', t => {
@@ -17,8 +15,6 @@ test('ignores whitespace', t => {
 	t.is(result.red, 11);
 	t.is(result.green, 33);
 	t.is(result.blue, 44);
-
-	t.end();
 });
 
 test('ignores whitespace inside brackets', t => {
@@ -27,8 +23,6 @@ test('ignores whitespace inside brackets', t => {
 	t.is(result.red, 1);
 	t.is(result.green, 2);
 	t.is(result.blue, 3);
-
-	t.end();
 });
 
 test('ignores whitespace around comma\'s', t => {
@@ -37,8 +31,6 @@ test('ignores whitespace around comma\'s', t => {
 	t.is(result.red, 1);
 	t.is(result.green, 2);
 	t.is(result.blue, 3);
-
-	t.end();
 });
 
 test('Returns negative value(s)', t => {
@@ -47,6 +39,4 @@ test('Returns negative value(s)', t => {
 	t.is(result.red, -10);
 	t.is(result.green, -22);
 	t.is(result.blue, 3);
-
-	t.end();
 });

@@ -40,3 +40,10 @@ test('Returns negative value(s)', t => {
 	t.is(result.green, -22);
 	t.is(result.blue, 3);
 });
+
+test('should return actual negative value', function (t) {
+	var result = parseRgb('rgb(-10 , -22   ,3  )');
+	t.assert(result.red === -10);
+	t.assert(result.green === -22);
+	t.assert(result.blue === 3);
+});
